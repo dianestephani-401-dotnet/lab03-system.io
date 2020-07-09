@@ -33,8 +33,14 @@ namespace Class_Questions
 
         static decimal RandomNumberAverage()
         {
-            Console.WriteLine("Please enter a number between 2 and 10.")
+            Console.WriteLine("Please enter a number between 2 and 10.");
             int firstAmount = Console.ReadLine();
+
+            for (i = 0; i < firstAmount; i++)
+            {
+                Console.WriteLine("Please enter another number between 2 and 10.");
+                
+            }
         }
     }
 }
